@@ -4,6 +4,11 @@ import { StaticQuery, graphql } from "gatsby"
 
 import "./layout.css"
 
+// TODO: add particlejs / gradient backgrounds
+// TODO: add colour presets 
+// TODO: add fonts 
+// TODO: add styling to sites
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
