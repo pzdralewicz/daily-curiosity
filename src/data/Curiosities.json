@@ -1,38 +1,47 @@
 [
   {
     "title": "test",
-    "content": "just a test curiosity12"    
+    "content": "just a test curiosity12",
+    "author": "Myself"
   },
   {
     "title": "test2",
-    "content": "just a test curiosity32"    
+    "content": "just a test curiosity32",
+    "author": "Myself"
   },
   {
     "title": "test3",
-    "content": "just a test curiosity41"    
+    "content": "just a test curiosity41",
+    "author": "Myself"
   },
   {
     "title": "test4",
-    "content": "just a test curiosity21"    
+    "content": "just a test curiosity21",
+    "author": "Myself"
   },
   {
     "title": "test5",
-    "content": "just a test curiosity12"    
+    "content": "just a test curiosity12",
+    "author": "Myself"
   },
   {
     "title": "test6",
-    "content": "just a test curiosity32"    
+    "content": "just a test curiosity32",
+    "author": "Myself"
   },
   {
     "title": "test7",
-    "content": "just a test curiosity1"    
+    "content": "just a test curiosity1",
+    "author": "Myself"
   },
   {
     "title": "test8",
-    "content": "just a test curiosity2"    
+    "content": "just a test curiosity2",
+    "author": "Myself"
   },
   {
     "title": "test9",
-    "content": "just a test curiosity3"    
+    "content": "just a test curiosity3",
+    "author": "Myself"
   }
 ]

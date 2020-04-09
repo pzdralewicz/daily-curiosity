@@ -1,0 +1,59 @@
+body, html {
+    font-family: 'Indie Flower', cursive;
+    /*font-family: 'Dancing Script', cursive;*/
+    /*font-family: 'Amatic SC', cursive;*/
+    /*font-family: 'Kalam', cursive;*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: white;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.site-container {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.text-container {
+    padding: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgba(0,0,0, 0.15), rgba(0,0,0, 0.1), transparent, transparent);
+}
+
+#title {
+    font-size: 10vh;
+    padding-right: 40vw;
+}
+
+#content {
+    text-align: left;
+    font-size: 7vh;
+    margin: 2rem 0;
+    max-width: 60vw;
+}
+
+#author-container {
+    padding-left: 30vw;
+}
+
+#author, #hyphen {
+    font-size: 5vh;
+}
