@@ -1,8 +1,5 @@
 body, html {
     font-family: 'Indie Flower', cursive;
-    /*font-family: 'Dancing Script', cursive;*/
-    /*font-family: 'Amatic SC', cursive;*/
-    /*font-family: 'Kalam', cursive;*/
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -19,6 +16,8 @@ canvas {
 }
 
 .site-container {
+    cursor: default;
+    user-select: none;
     position: absolute;
     height: 100vh;
     width: 100vw;
@@ -27,15 +26,17 @@ canvas {
     justify-content: center;
     align-items: center;
     z-index: 2;
+    box-shadow: inset 0px 0px 300px -100px black;
 }
 
 .text-container {
-    padding: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: radial-gradient(rgba(0,0,0, 0.15), rgba(0,0,0, 0.1), transparent, transparent);
+    /*background-image: radial-gradient(rgba(0,0,0, 0.15), rgba(0,0,0, 0.1), transparent, transparent);*/
+    text-shadow: #333 0px 0px 2px;
+    text-rendering: optimizeLegibility;
 }
 
 #title {
@@ -56,4 +57,20 @@ canvas {
 
 #author, #hyphen {
     font-size: 5vh;
+}
+
+@media (max-width: 860px) {
+    #content {
+        text-align: center;
+        font-size: 5vh;
+        max-width: 80vw;
+    }
+
+    #title {
+        padding-right: 0;
+    }
+
+    #author-container {
+        padding-left: 35vw;
+    }
 }

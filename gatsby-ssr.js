@@ -10,9 +10,6 @@ const React = require("react")
 exports.onRenderBody = ({ setHeadComponents, setPostBodyComponents }) => {
   setHeadComponents([
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet" />,
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet" />,
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet" />,
-    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet" />,
   ])
 
   setPostBodyComponents([
