@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Daily Curiosities!`,
-    description: `Your daily dose of interesting curiosities to satisfy Your hunger for curiosity`,
+    title: `Your daily quote`,
+    description: `Your daily dose of interesting quotes`,
     author: `@pzdralewicz`,
   },
   plugins: [
@@ -18,13 +18,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `daily-quotes`,
+        short_name: `daily-quotes`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#fff`,
+        theme_color: `#fff`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
     "gatsby-transformer-json",
