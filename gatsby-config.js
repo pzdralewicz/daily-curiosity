@@ -40,6 +40,9 @@ module.exports = {
           "/sw.js": [
             'cache-control: public, max-age=0, must-revalidate'
           ],
+          "/index.js": [
+            'cache-control: public, max-age=0, must-revalidate'
+          ],
         }
       }
     }
