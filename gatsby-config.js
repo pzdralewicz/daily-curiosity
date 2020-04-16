@@ -32,7 +32,7 @@ module.exports = {
       options: {
         headers: {
           "/*.js": [
-            'cache-Control: no-cache, no-store, must-revalidate'
+            'cache-control: public, max-age=0, must-revalidate'
           ],
           "/*.css": [
             'cache-control: public, max-age=31536000, immutable'
