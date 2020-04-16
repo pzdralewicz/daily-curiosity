@@ -12,7 +12,7 @@ const selectQuoteByDate = quotes => {
   return quotes[today % quotes.length]
 }
 
-const renderDailyQuote = data => {
+const DailyQuote = ({data}) => {
   const {isClient} = useIsClient();
 
   if (!isClient) return null;
@@ -54,7 +54,7 @@ const IndexPage = () => (
         <SEO title="Your daily quote" />
         <div className={"site-container"}>
           <div className={"text-container"}>
-            {renderDailyQuote(data)}
+            <DailyQuote data={data} />
           </div>
         </div>
       </Layout>
