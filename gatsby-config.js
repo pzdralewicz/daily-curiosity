@@ -17,6 +17,7 @@ module.exports = {
         background_color: `#fff`,
         theme_color: `#fff`,
         display: `minimal-ui`,
+        cache_busting_mode: `none`
       },
     },
     "gatsby-transformer-json",
