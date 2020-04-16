@@ -3,6 +3,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import useIsClient from "../useIsClient"
 
 const selectQuoteByDate = quotes => {
   const date = new Date()
@@ -12,6 +13,9 @@ const selectQuoteByDate = quotes => {
 }
 
 const renderDailyQuote = data => {
+  const {isClient} = useIsClient();
+
+  if (!isClient) return null;
   const quotes = data.allQuotesJson.edges.map(item => {
     return {
       text: item.node.text,
