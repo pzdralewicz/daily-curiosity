@@ -1,0 +1,7 @@
+.logo-container {
+    z-index: 3;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    height: 70px;
+}
