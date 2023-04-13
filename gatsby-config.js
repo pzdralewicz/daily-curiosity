@@ -11,6 +11,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
+        icon: `${__dirname}/src/data/logo.png`,
         name: `daily-quotes`,
         short_name: `daily-quotes`,
         start_url: `/`,
