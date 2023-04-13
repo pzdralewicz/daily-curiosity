@@ -7,7 +7,7 @@ import useIsClient from "../useIsClient"
 
 const selectQuoteByDate = quotes => {
   const date = new Date()
-  const today = `${date.getFullYear()}${date.getMonth()}${date.getDay()}`
+  const today = `${date.getFullYear()}${date.getMonth()}${date.getDate()}`
 
   return quotes[today % quotes.length]
 }
