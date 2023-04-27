@@ -10,7 +10,7 @@ const palettes = [
 
 const selectPaletteByDate = () => {
   const date = new Date()
-  const today = `${date.getFullYear()}${date.getMonth()}${date.getDay()}`
+  const today = `${date.getFullYear()}${date.getMonth()}${date.getDate()}`
 
   return palettes[today % palettes.length];
 }
